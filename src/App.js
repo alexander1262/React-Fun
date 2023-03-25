@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
+import Navigation from './screens/navigationBar/NavigationBar'
 
 function App() {
-  return null
+  return (
+    <>
+      <Navigation />
+    </>
+  )
 }
 
 export default App;
