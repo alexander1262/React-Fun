@@ -4,6 +4,7 @@ import Navigation from './screens/navigationBar/NavigationBar'
 import Header from './screens/header/Header';
 import AboutMe from './screens/aboutMe/AboutMe';
 import HeaderBackground from './screens/headerBackground/HeaderBackground';
+import Technologies from './screens/technologies/Technologies';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Header />
       <HeaderBackground />
       <AboutMe />
+      <Technologies />
     </div>
   )
 }
