@@ -15,4 +15,20 @@ export const techs = [
         name: 'SASS',
         iconName: 'sass'
     },
+    {
+        name: 'Node.js',
+        iconName: 'nodejs'
+    },
+    {
+        name: 'Bootstrap',
+        iconName: 'bootstrap'
+    },
+    {
+        name: 'HTML',
+        iconName: 'html5'
+    },
+    {
+        name: 'Visual Studio',
+        iconName: 'visualstudio'
+    }
 ]

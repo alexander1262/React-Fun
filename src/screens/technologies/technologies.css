@@ -19,21 +19,19 @@
 .tech__card {
     width: 15rem;
     height: 10rem;
-    background-color: var(--font-color);
     margin: 10px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     border-radius: 3px;
-    border-bottom: 5px solid var(--nav-color);
     transition: all 0.1s;
 }
 
-.tech__card:hover {
+/* .tech__card:hover {
     background-color: var(--font-color-hover);
     transform: scale(1.05);
-}
+} */
 
 .tech_icons {
     height: 70px;
