@@ -3,13 +3,14 @@ import './portfolio.css';
 import Project from "./Project";
 import portfolioData from '../../helpers/porfolioData'
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Scrollbar, Navigation, Pagination, A11y, EffectCube } from "swiper";
+import SwiperCore, { Scrollbar, Navigation, Pagination, A11y } from "swiper";
 import "swiper/css";
 import "swiper/css/scrollbar";
 import 'swiper/swiper.min.css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import 'swiper/css/effect-cube'
+import { useState } from "react";
+SwiperCore.use([Pagination]);
  
 
 function Portfolio() {
@@ -17,21 +18,29 @@ function Portfolio() {
     <div className='portfolio__main__container' id='portfolio'>
       <h1>Portfolio</h1>
       <Swiper
-      module={[Navigation, Pagination, Scrollbar, A11y, EffectCube]}
+      module={[Navigation, Pagination, Scrollbar, A11y]}
       slidesPerView={1}
       grabCursor={true}
-      effect='cube'
-      centeredSlides
-      cubeEffect={{
-        shadow: true,
-        slideShadows: true,
-        shadowOffset: 20,
-      }}
-      scrollbar={{ draggable: true }}
+      centeredSlides={true}
       spaceBetween={50}
-      pagination={{ clickable: true }}
+      breakpoints={{
+        480: {
+          spaceBetween: 70
+        },
+        320: {
+          spaceBetween: 80
+        }
+      }}
+      scrollbar={{
+        draggable: true,
+        el: '.swiper-scrollbar'
+      }}
+      pagination={{
+        el: '.swiper-pagination',
+        clickable: true,
+        bulletClass: `swiper-pagination-bullet swiper-pagination-testClass`
+      }}
       navigation
-      onSwiper={(swiper) => console.log(swiper)}
       className='swiperPortfolio'
       >
           <SwiperSlide>
