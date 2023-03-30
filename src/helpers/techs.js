@@ -4,7 +4,7 @@ export const techs = [
         iconName: 'react'
     },
     {
-        name: 'CSS',
+        name: 'CSS/SASS',
         iconName: 'css3'
     },
     {
@@ -12,8 +12,8 @@ export const techs = [
         iconName: 'javascript'
     },
     {
-        name: 'SASS',
-        iconName: 'sass'
+        name: 'MongoDB',
+        iconName: 'mongodb'
     },
     {
         name: 'Node.js',

@@ -9,7 +9,7 @@ import "swiper/css/scrollbar";
 import 'swiper/swiper.min.css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { useState } from "react";
+import 'swiper/swiper-bundle.css';
 SwiperCore.use([Pagination]);
  
 
@@ -23,20 +23,12 @@ function Portfolio() {
       grabCursor={true}
       centeredSlides={true}
       spaceBetween={50}
-      breakpoints={{
-        480: {
-          spaceBetween: 70
-        },
-        320: {
-          spaceBetween: 80
-        }
-      }}
       scrollbar={{
         draggable: true,
-        el: '.swiper-scrollbar'
       }}
       pagination={{
         el: '.swiper-pagination',
+        type: 'bullets',
         clickable: true,
         bulletClass: `swiper-pagination-bullet swiper-pagination-testClass`
       }}
