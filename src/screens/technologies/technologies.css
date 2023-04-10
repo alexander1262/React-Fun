@@ -1,10 +1,10 @@
 .technologies__container {
-    background-color: var(--light-color);
     color: var(--nav-color);
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 3rem;
+    color: var(--font-color);
 }
 
 .tech__cards__container {
@@ -35,7 +35,7 @@
 
 .tech_icons {
     height: 70px;
-    background-color: var(--light-color);
+    background-color: var(--font-color);
     border-radius: 50%;
 
 }

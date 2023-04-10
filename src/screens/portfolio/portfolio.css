@@ -1,4 +1,6 @@
-
+.portfolio__main__container {
+    color: var(--font-color);
+}
 
 .portfolio__main__container h1 {
     text-align: center;
@@ -10,6 +12,14 @@
 
 .swiper-slide {
     display: flex;
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black;
 }
 
 /* MEDIA SCREENS */
