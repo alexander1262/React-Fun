@@ -13,7 +13,7 @@ function Portfolio() {
   };
   return (
     <div className='portfolio__main__container' id='portfolio'>
-      <h1>Portfolio</h1>
+      <h1 className='portfolio__title'>Portfolio</h1>
       <Carousel activeIndex={index} onSelect={handleSelect} showControl touch={true}s>
         <Carousel.Item>
           <Project item={portfolioData[0]} />

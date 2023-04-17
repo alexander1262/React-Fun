@@ -7,7 +7,7 @@ function Technologies() {
   return (
     <div className='technologies__container' id='technologies'>
         <div>
-            <h1 style={{textAlign: 'center'}}>Technologies</h1>
+            <h1 className='tech__title'>Technologies</h1>
         </div>
         <div className='tech__cards__container'>
             {techs.map((e, idx) => {

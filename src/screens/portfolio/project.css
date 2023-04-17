@@ -44,19 +44,21 @@
 .github__icon {
     height: 100px;
     width: 100px;
+    filter: opacity(0.5) drop-shadow(0 0 white) brightness(3);
 }
 
 .github__icon:hover {
-    filter: opacity(0.5) drop-shadow(0 0 aqua);
+    filter: opacity(0.5) drop-shadow(0 0 aqua) brightness(3);
 }
 
 .deployed__icon {
     height: 100px;
     width: 100px;
+    filter: opacity(0.5) drop-shadow(0 0 white) brightness(3);
 }
 
 .deployed__icon:hover {
-    filter: opacity(0.5) drop-shadow(0 0 aqua);
+    filter: opacity(0.5) drop-shadow(0 0 aqua) brightness(3);
 }
 
 @media only screen and (max-width: 768px) {

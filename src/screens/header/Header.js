@@ -5,7 +5,8 @@ import './header.css'
 export default function Header() {
   return (
     <div className="main-info">
-      <h1 class='frontEndTitle'>Front End Developer</h1>
+      <h2 className='frontEndName'>Alexander Weiss</h2>
+      <h1 className='frontEndTitle'>Front End Developer</h1>
       <Typed
         strings={[
             'Who loves working with React',

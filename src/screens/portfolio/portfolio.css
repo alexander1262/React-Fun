@@ -1,5 +1,11 @@
 .portfolio__main__container {
     color: var(--font-color);
+    margin-bottom: 15rem;
+}
+
+.portfolio__title {
+    text-decoration: underline;
+    text-decoration-color: var(--font-color-underline);
 }
 
 .portfolio__main__container h1 {
