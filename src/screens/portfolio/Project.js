@@ -1,17 +1,29 @@
 import React from 'react'
 import DevIcon from 'devicon-react-svg';
 import './project.css'
+import { useState } from 'react';
 
 export default function Project({ item }) {
+  const [hovered, setHovered] = useState(false);
+
+  const handleMouseOver = () => {
+    setHovered(true);
+  }
+
+  const handleMouseOut = () => {
+    setHovered(false);
+  }
   return (
-    <div className='project__container'>
-            <h1 className='project__title'>{item.title}</h1>
+    <div className='project__container' onMouseOver={handleMouseOver} onMouseOut={handleMouseOut}>
       <img src={item.image} alt='project' className='project__image' />
-        <div>
-            <p className='descriptionTitle'>Description:</p>
-            <p className='description'>{item.description}</p>
-            <p className='technologiesTitle'>Technologies Used:</p>
-            <p className='technologies'>{item.technologies}</p>
+      {hovered && (
+      <div className='hover-text'>
+        <div className='text__wrapper'>
+        <h1 className='project__title'>{item.title}</h1>
+        {/* <p className='descriptionTitle'>Description:</p> */}
+        <p className='description'>{item.description}</p>
+        {/* <p className='technologiesTitle'>Technologies Used:</p> */}
+        <p className='technologies'>{item.technologies}</p>
             <div className="custom-pagination"></div>
             <span className='website__links'>
                 <a target='_blank' href={item.repo} rel="noreferrer">
@@ -22,6 +34,8 @@ export default function Project({ item }) {
                 </a>
             </span>
         </div>
-    </div>
+        </div>
+        )}
+      </div>
   )
 }

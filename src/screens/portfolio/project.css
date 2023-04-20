@@ -1,10 +1,19 @@
 .project__container {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    scale: .9;
+    /* display: flex; */
+    /* align-items: center;
+    flex-direction: column; */
+    /* scale: .9; */
     font-size: 1.2rem;
+    border: 1px solid white;
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin: 5px;
 }
+
+/* .project__container:hover p {
+    display: block;
+} */
 
 /* .swiperPortfolio:global(.swiper-pagination-bullet) {
         background: white;
@@ -17,29 +26,70 @@
 .project__container img {
     /* margin-left: auto;
     margin-right: auto; */
+    /* width: 400px; */
+    width: 100%;
+}
+
+
+.hover-text {
     display: flex;
-    object-fit: scale-down;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.text__wrapper {
+    transform: translateY(-50px);
+}
+
+.project__title {
+    font-size: 1.5rem;
+}
+
+/* .descriptionTitle {
+    font-size: 1rem;
+} */
+
+.description {
+    font-size: 1rem;
+    color: rgb(242, 177, 255);
+}
+
+/* .technologiesTitle {
+    font-size: 1rem;
+} */
+
+.technologies {
+    font-size: 1rem;
+    color: rgb(136, 255, 146);
+}
+
+.project__container:hover .hover-text {
+    opacity: 1;
 }
 
 .descriptionTitle {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     text-shadow: 1px 1px 2px black;
+    /* display: none; */
 }
 
 .technologiesTitle {
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     text-shadow: 1px 1px 2px black;
 }
-
-.website__links {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* .website__links:hover {
-    background-color: aqua
-} */
 
 .github__icon {
     height: 100px;
@@ -66,5 +116,17 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+    .hover-text p {
+        font-size: .7rem;
+    }
+    .hover-text h1 {
+        font-size: 1.2rem;
+    }
+    .github__icon {
+        scale: .7;
+    }
+    .deployed__icon {
+        scale: .7;
     }
 }

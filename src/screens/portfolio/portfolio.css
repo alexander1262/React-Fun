@@ -3,6 +3,14 @@
     margin-bottom: 15rem;
 }
 
+.portfolio__small__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 0 calc(33.33% - 10px);
+}
+
 .portfolio__title {
     text-decoration: underline;
     text-decoration-color: var(--font-color-underline);
@@ -11,22 +19,11 @@
 .portfolio__main__container h1 {
     text-align: center;
     margin-top: 3rem;
+    /* margin-bottom: 3rem; */
 }
-.portfolio__main__container p {
+/* .portfolio__main__container p {
     text-align: center;
-}
-
-.swiper-slide {
-    display: flex;
-}
-
-.carousel-control-next-icon {
-    background-color: black;
-}
-
-.carousel-control-prev-icon {
-    background-color: black;
-}
+} */
 
 /* MEDIA SCREENS */
 
