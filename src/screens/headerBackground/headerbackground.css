@@ -1,6 +1,4 @@
 .backgroundFirst {
-    background-color: var(--nav-color-base);
-    color: white;
     height: 100vh;
     width: 100vw;
 }

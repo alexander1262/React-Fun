@@ -5,7 +5,7 @@ import resume from '../../helpers/resume.pdf'
 
 export default function AboutMe() {
   return (
-    <div className='about__container' id='about-me'>
+    <div className='about__container' id='about-me' style={{ backgroundColor: `var(--bg-color)`, color: `var(--text-color)` }}>
       <div>
         <img src={person} alt="person icon" />
       </div>

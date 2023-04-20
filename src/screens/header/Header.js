@@ -4,7 +4,7 @@ import './header.css'
 
 export default function Header() {
   return (
-    <div className="main-info">
+    <div className="main-info" style={{ backgroundColor: `var(--bg-color)`, color: `var(--text-color)` }}>
       <h2 className='frontEndName'>Alexander Weiss</h2>
       <h1 className='frontEndTitle'>Front End Developer</h1>
       <Typed

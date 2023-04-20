@@ -1,16 +1,47 @@
 .contactMe__container {
-    background-color: var(--nav-color);
+    /* background-color: var(--nav-color); */
     color: aliceblue;
     padding: 1rem;
 }
 
-.contactMe__data__links {
+.logo__wrapper {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.contactMe__personal {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    width: 1000px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+.contactMe__personal p {
+    display: flex;
+    /* flex-direction: row; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+.footer__linkedin__logo {
+    scale: 2;
+    margin-left: 25px;
+    margin-right: 25px;
+    /* filter: opacity(0.5) drop-shadow(0 0 rgb(35, 106, 172)) brightness(3); */
+}
+
+.footer__github__logo {
+    scale: 2;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 .contactMe__data__links a {
-    color: white;
+    /* color: white; */
     text-decoration: none;
     text-transform: uppercase;
 }

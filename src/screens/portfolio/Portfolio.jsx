@@ -12,7 +12,7 @@ function Portfolio() {
   //   setIndex(selectedIndex);
   // };
   return (
-    <div className='portfolio__main__container' id='portfolio'>
+    <div className='portfolio__main__container' id='portfolio' style={{ backgroundColor: `var(--bg-color)`, color: `var(--text-color)` }}>
       <h1 className='portfolio__title'>Portfolio</h1>
       <div className='portfolio__small__container'>
         <Project item={portfolioData[0]} />

@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 .App {
     font-family: 'Short Stack', cursive;
-    background-color: var(--nav-color-base);
 }
 
 :root {
@@ -13,4 +12,25 @@
     /* --light-color: hsl(0, 0%, 100%); */
     --font-color-hover: hsl(0, 0%, 60%);
     --font-color-underline: hsl(197, 100%, 77%);
+    --bg-color: #dffffc;
+    --text-color: hsl(210, 13%, 12%);
+    --nav-back: #bdf5ff;
 }
+.dark-mode {
+    --bg-color: #586A6A;
+    --text-color: hsl(209, 100%, 92%);
+    --nav-back: #818D92;
+  }
+
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+  }
+  
+  .content {
+    /* Add styles for the content here */
+  }

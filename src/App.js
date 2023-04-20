@@ -10,7 +10,7 @@ import ContactMe from './screens/contactMe/ContactMe';
 
 function App() {
   return (
-    <div className='App'>
+    <div className='App' style={{ backgroundColor: `var(--bg-color)`, color: `var(--text-color)` }}>
       <Navigation />
       <Header />
       <HeaderBackground />

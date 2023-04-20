@@ -5,7 +5,7 @@ import {techs} from '../../helpers/techs'
 
 function Technologies() {
   return (
-    <div className='technologies__container' id='technologies'>
+    <div className='technologies__container' id='technologies' style={{ backgroundColor: `var(--bg-color)`, color: `var(--text-color)` }}>
         <div>
             <h1 className='tech__title'>Technologies</h1>
         </div>
