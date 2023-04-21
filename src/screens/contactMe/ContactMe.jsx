@@ -19,11 +19,11 @@ function ContactMe() {
             <Footergithub className='footer__github__logo'/>
         </div>
       <div className='contactMe__data__links'>
-        <div className='contactMe__personal'>
+        {/* <div className='contactMe__personal'>
             <p>Pennsylvania</p>
             <p>weisssander@gmail.com</p>
             <p>Alexander Weiss</p>
-        </div>
+        </div> */}
       </div>
       <div style={{ textAlign: 'center' }}>Copyright&copy;{new Date().getFullYear()} All rights reserved</div>
     </div>
