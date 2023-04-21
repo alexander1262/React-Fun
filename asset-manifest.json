@@ -1,18 +1,25 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.5931d7f0.css",
-    "main.js": "/React-Portfolio/static/js/main.3738a88c.js",
-    "static/media/dictionary.png": "/React-Portfolio/static/media/dictionary.277464af80e8b11c4794.png",
-    "static/media/resume.pdf": "/React-Portfolio/static/media/resume.5dfdb299a447c1658a1b.pdf",
-    "static/media/selfie.png": "/React-Portfolio/static/media/selfie.682d135eeffcb2d2d6d3.png",
-    "static/media/neoplants.png": "/React-Portfolio/static/media/neoplants.6455bfde32935dd4df0f.png",
-    "static/media/javascriptquiz.png": "/React-Portfolio/static/media/javascriptquiz.6675b45804f55397eac1.png",
-    "index.html": "/React-Portfolio/index.html",
-    "main.5931d7f0.css.map": "/React-Portfolio/static/css/main.5931d7f0.css.map",
-    "main.3738a88c.js.map": "/React-Portfolio/static/js/main.3738a88c.js.map"
+    "main.css": "/static/css/main.9b47fb5c.css",
+    "main.js": "/static/js/main.c379326c.js",
+    "static/media/dictionary.png": "/static/media/dictionary.8f666d48c8ce731b5b72.png",
+    "static/media/readme.png": "/static/media/readme.1bbb9ef579805e36ec5d.png",
+    "static/media/resume.pdf": "/static/media/resume.5dfdb299a447c1658a1b.pdf",
+    "static/media/selfie.png": "/static/media/selfie.682d135eeffcb2d2d6d3.png",
+    "static/media/logogenerator.png": "/static/media/logogenerator.d586b8927af1e83bb63d.png",
+    "static/media/neoplants.png": "/static/media/neoplants.6455bfde32935dd4df0f.png",
+    "static/media/notetaker.png": "/static/media/notetaker.77625c66e5c796d2f5bf.png",
+    "static/media/javascriptquiz.png": "/static/media/javascriptquiz.bb6c9a057fbca838c5d4.png",
+    "static/media/sun.svg": "/static/media/sun.15dc6986297a6e86490ed7a930977ff1.svg",
+    "static/media/footergithub.svg": "/static/media/footergithub.3673ba8605eae58e16e208232310facb.svg",
+    "static/media/moon.svg": "/static/media/moon.cd76b13d60f18e08e73b19359a4617c2.svg",
+    "static/media/footerlinkedin.svg": "/static/media/footerlinkedin.ea9b3bd6f4d492f3c85b4241f93f682f.svg",
+    "index.html": "/index.html",
+    "main.9b47fb5c.css.map": "/static/css/main.9b47fb5c.css.map",
+    "main.c379326c.js.map": "/static/js/main.c379326c.js.map"
   },
   "entrypoints": [
-    "static/css/main.5931d7f0.css",
-    "static/js/main.3738a88c.js"
+    "static/css/main.9b47fb5c.css",
+    "static/js/main.c379326c.js"
   ]
 }
