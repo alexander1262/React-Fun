@@ -1,6 +1,6 @@
-/* .links a:hover {
-    background-color: var(--font-color-hover);
-} */
+.links a:hover {
+    color: var(--font-color-hover) !important;
+}
 
 button {
     background-color: transparent;
@@ -17,5 +17,7 @@ svg {
     height: 2rem;
     /* fill: currentColor; */
 }
-/* 
-style={{ zIndex: '2', position: 'fixed', top: '0', width: '100%' }} */
+
+.navbar__toggle {
+    margin-left: 10px;
+}

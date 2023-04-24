@@ -4,6 +4,7 @@
   "homepage": "https://alexander1262.github.io/React-Portfolio/",
   "private": true,
   "dependencies": {
+    "@formspree/react": "^2.4.1",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -16,6 +17,7 @@
     "react-dom": "^18.2.0",
     "react-pdf": "^6.2.2",
     "react-scripts": "5.0.1",
+    "react-scrollmagic": "^2.3.0",
     "react-tsparticles": "^2.9.3",
     "react-typed": "^1.2.0",
     "scrollmagic": "^2.0.8",
@@ -25,7 +27,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "npm run build && gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

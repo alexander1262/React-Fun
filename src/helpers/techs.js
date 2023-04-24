@@ -28,7 +28,7 @@ export const techs = [
         iconName: 'html5'
     },
     {
-        name: 'Visual Studio',
+        name: 'VS Code',
         iconName: 'visualstudio'
     }
 ]

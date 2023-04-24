@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './technologies.css'
 import DevIcon from 'devicon-react-svg';
 import {techs} from '../../helpers/techs'
@@ -13,7 +13,12 @@ function Technologies() {
             {techs.map((e, idx) => {
                 return (
                     <div key={idx} className='tech__card'>
-                        <DevIcon className='tech_icons' icon={e.iconName} />
+                        <DevIcon
+                        fill={'gray'}
+                        stroke='black'
+                        strokeWidth='1'
+                        className='tech_icons'
+                        icon={e.iconName} />
                         <span style={{ margin: '5px', fontSize: '1.5rem' }}>{e.name}</span>
                     </div>
                 )

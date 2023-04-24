@@ -7,15 +7,12 @@
 .logo__wrapper {
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
-    margin-top: 10px;
 }
 
 .contactMe__personal {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
-    width: 1000px;
    margin-left: auto;
    margin-right: auto;
 }
@@ -28,26 +25,14 @@
 }
 
 .footer__linkedin__logo {
-    scale: 2;
-    margin-left: 25px;
-    margin-right: 25px;
-    /* filter: opacity(0.5) drop-shadow(0 0 rgb(35, 106, 172)) brightness(3); */
+    width: 75px;
+    height: 75px;
+    /* filter: opacity(0.5) drop-shadow(0 0 rgb(60, 149, 231)) brightness(3); */
 }
 
 .footer__github__logo {
-    scale: 2;
-    margin-left: 25px;
-    margin-right: 25px;
-}
-
-.contactMe__data__links a {
-    /* color: white; */
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-.contactMe__data__links a:hover {
-    color: var(--light-color);
+    width: 75px;
+    height: 75px;
 }
 
 @media only screen and (max-width: 600px) {

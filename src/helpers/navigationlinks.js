@@ -19,9 +19,4 @@ export const navigationLinks = [
         name: 'CONTACT',
         ref: '#contact'
     },
-    {
-        name: 'RESUME',
-        ref: './resume.pdf',
-        target: '_blank'
-    }
 ]

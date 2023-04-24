@@ -22,9 +22,10 @@
     max-width: 600px;
 }
 
-/* .resume__link {
+.resume__link {
     font-size: 2rem;
-} */
+    color: var(--text-color);
+}
 
 /* MEDIA QUERIES */
 

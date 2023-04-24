@@ -31,7 +31,7 @@ export default function NavigationBar() {
       <button className='darklightbutton' onClick={toggleMode}>
         {isDarkMode ? <SunIcon className='sunsvg'/> : <MoonIcon />}
       </button>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className='navbar__toggle' />
       <Navbar.Collapse style={{ justifyContent: 'flex-end', marginRight: '1rem', borderColor: 'none' }}>
         <Nav className='links' style={{ margin: '0 1rem' }}>
         {createLinks()}

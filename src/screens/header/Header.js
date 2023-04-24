@@ -11,7 +11,7 @@ export default function Header() {
         strings={[
             'Who loves working with React',
             'Also CSS, SASS',
-            'Learning PHP and Typescript aswell'
+            'Learning Java and Typescript aswell'
             ]}
             typeSpeed={40}
             backSpeed={50}
