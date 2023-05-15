@@ -2,7 +2,7 @@ import dictionary from '../images/projectsicon/dictionary.png'
 import javascriptquiz from '../images/projectsicon/javascriptquiz.png'
 import neoplants from '../images/projectsicon/neoplants.png'
 import notetaker from '../images/projectsicon/notetaker.png'
-import logogenerator from '../images/projectsicon/logogenerator.png'
+import groceryecommerce from '../images/projectsicon/groceryecommerce.png'
 import readme from '../images/projectsicon/readme.png'
 
 const portfolioData = [
@@ -39,12 +39,12 @@ const portfolioData = [
         technologies: 'HTML | CSS | Javascript | Node.js | Heroku'
     },
     {
-        image: logogenerator,
-        deployed: 'https://drive.google.com/file/d/1lK4wo_kbX5DN3m09PfgLEsJEOdsj2ZyN/view',
-        repo: 'https://github.com/alexander1262/SVG-Logo-Generator',
-        title: 'Logo Generator',
-        description: 'An application that takes in user input to generate an svg logo',
-        technologies: 'Javascript | Jest | Node.js'
+        image: groceryecommerce,
+        deployed: 'https://groceryjad.herokuapp.com/',
+        repo: 'https://github.com/JoshEflin/JAD',
+        title: 'Grocery ECommerce',
+        description: 'A Grocery ECommerce website that allows users to search recipes and purchase ingredients for those recipes',
+        technologies: 'Javascript | React.js | Mongodb | Graphql | Tailwindcss'
     },
     {
         image: readme,
