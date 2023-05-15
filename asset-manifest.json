@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.70b2d592.css",
-    "main.js": "/React-Portfolio/static/js/main.2b54e567.js",
+    "main.js": "/React-Portfolio/static/js/main.65fce024.js",
     "static/media/dictionary.png": "/React-Portfolio/static/media/dictionary.8f666d48c8ce731b5b72.png",
     "static/media/readme.png": "/React-Portfolio/static/media/readme.1bbb9ef579805e36ec5d.png",
     "static/media/resume.pdf": "/React-Portfolio/static/media/resume.5dfdb299a447c1658a1b.pdf",
     "static/media/selfie.png": "/React-Portfolio/static/media/selfie.682d135eeffcb2d2d6d3.png",
-    "static/media/logogenerator.png": "/React-Portfolio/static/media/logogenerator.d586b8927af1e83bb63d.png",
+    "static/media/groceryecommerce.png": "/React-Portfolio/static/media/groceryecommerce.46f1a1975d2bb680e5d7.png",
     "static/media/neoplants.png": "/React-Portfolio/static/media/neoplants.6455bfde32935dd4df0f.png",
     "static/media/notetaker.png": "/React-Portfolio/static/media/notetaker.77625c66e5c796d2f5bf.png",
     "static/media/javascriptquiz.png": "/React-Portfolio/static/media/javascriptquiz.bb6c9a057fbca838c5d4.png",
@@ -16,10 +16,10 @@
     "static/media/footerlinkedin.svg": "/React-Portfolio/static/media/footerlinkedin.ea9b3bd6f4d492f3c85b4241f93f682f.svg",
     "index.html": "/React-Portfolio/index.html",
     "main.70b2d592.css.map": "/React-Portfolio/static/css/main.70b2d592.css.map",
-    "main.2b54e567.js.map": "/React-Portfolio/static/js/main.2b54e567.js.map"
+    "main.65fce024.js.map": "/React-Portfolio/static/js/main.65fce024.js.map"
   },
   "entrypoints": [
     "static/css/main.70b2d592.css",
-    "static/js/main.2b54e567.js"
+    "static/js/main.65fce024.js"
   ]
 }
